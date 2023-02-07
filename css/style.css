@@ -1,0 +1,78 @@
+body{
+    background-color:hsl(180, 11%, 87%);
+}
+.all{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+}
+.part1{
+    width:600px ;
+    background-color: white;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+}
+h3{
+  color: hsl(179, 62%, 43%);  
+}
+.one{
+    color: hsl(71, 73%, 54%);
+}
+.p1{
+    color: hsl(218, 22%, 67%);
+}
+.box0{
+    padding:5px;
+}
+.part2{
+    display: flex;
+}
+
+.box1{
+    background-color:hsl(179, 62%, 43%) ;
+    width: 300px;
+   padding: 10px;
+    color: white;
+border-bottom-left-radius: 10px;
+}
+.box2{
+    display: flex;
+}
+.p2{
+    margin-left: 10px;
+    font-size: small;
+    color: hsl(204, 43%, 93%);
+}
+.box3{
+    width: 300px;
+background-color:hsl(179, 53%, 53%) ;
+padding: 10px;
+color: white;
+border-bottom-right-radius: 10px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+@media (max-width:400px) {
+    .part1{
+        width:300px ;}
+    .part2
+    {
+        display: block;
+    }
+    .box1{
+    width: 280px;
+    border-radius:0;
+    }
+    .box3{
+        width: 280px;
+
+   border-bottom-left-radius:10px;
+    }
+}
